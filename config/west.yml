@@ -8,7 +8,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
-    - name: zmk-zephyr
+    - name: zmk
       remote: infused-kim
       revision: my-changes/oled-ext-pwr
       import:
