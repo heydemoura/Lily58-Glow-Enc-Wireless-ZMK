@@ -11,7 +11,7 @@ manifest:
     - name: zmk-zephyr
       remote: infused-kim
       revision: my-changes/oled-ext-pwr
-    import:
+      import:
         # TODO: Rename once upstream offers option like `exclude` or `denylist`
         name-blacklist:
           - ci-tools
