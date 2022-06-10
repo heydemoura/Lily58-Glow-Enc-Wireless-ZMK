@@ -8,5 +8,6 @@ manifest:
     - name: zmk
       remote: infused-kim
       revision: my-changes/oled-ext-pwr
+      import: app/west.yml
   self:
     path: config
