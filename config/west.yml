@@ -9,9 +9,10 @@ manifest:
 #      remote: zmkfirmware
 #      revision: main
 #      import: app/west.yml
-    - name: zmk
+    - name: zmk-zephyr
       remote: infused-kim
-      revision: my-changes/oled-ext-pwr
-      import: app/west.yml
+      revision: v2.5.0+zmk-fixes+kim-fixes
+      clone-depth: 1
+      import:
   self:
     path: config
