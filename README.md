@@ -15,7 +15,7 @@ Layer 3: Default with å, ø, æ, added to the mix. Using tap, tap 1 is å, doub
 Layer 1:
 // ------------------------------------------------------------------------------------------------------------
 // |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |  BSPC |
-// |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   \   |
+// |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   \   |\n
 // |  CTRL |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   Mute |  | LOCK  |  N   |  M    |  ,    |  .   |   /   |   =   |
 //                     | ALT  | LGUI | LWR  |  SPACE |  | ENTER | RAISE|       | DEL   |
