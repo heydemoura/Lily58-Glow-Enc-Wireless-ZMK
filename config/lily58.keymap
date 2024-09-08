@@ -31,6 +31,11 @@
             tapping-term-ms = <200>;
             bindings = <&kp LA(SQT)>, <&kp SQT>, <&kp DQT>;
         };
+        vol_encoder: vol_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp C_VOL_UP>, <&kp C_VOL_DN>;
+        };
     };
 
     keymap {
@@ -48,10 +53,10 @@
 &kp TAB   &kp Q  &kp W  &kp E    &kp R    &kp T                      &kp Y  &kp U    &kp I     &kp O   &kp P    &kp BSLH
 &kp LCTRL &kp A  &kp S  &kp D    &kp F    &kp G                      &kp H  &kp J    &kp K     &kp L   &kp SEMI &kp SQT
 &kp LSHFT &kp Z  &kp X  &kp C    &kp V    &kp B  &kp C_MUTE   &kp K_LOCK  &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp EQUAL
-                        &kp LALT  &kp LGUI  &mo 1  &kp SPACE  &kp RET  &tog 2  &none  &kp DEL
+                        &kp LALT  &kp LGUI  &tog 1  &kp SPACE  &kp RET  &tog 2  &none  &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&vol_encoder>;
         };
 
         lower_layer {
@@ -84,10 +89,10 @@
 &kp TAB   &kp Q  &kp W  &kp E    &kp R    &kp T                      &kp Y  &kp U    &kp I     &kp O   &kp P    &td0
 &kp LCTRL &kp A  &kp S  &kp D    &kp F    &kp G                      &kp H  &kp J    &kp K     &kp L   &td1  &td2
 &kp LSHFT &kp Z  &kp X  &kp C    &kp V    &kp B  &kp C_MUTE   &kp K_LOCK  &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp EQUAL
-                        &kp LALT  &kp LGUI  &mo 1  &kp SPACE  &kp RET  &tog 2  &trans &kp DEL
+                        &kp LALT  &kp LGUI  &tog 1  &kp SPACE  &kp RET  &tog 2  &trans &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&vol_encoder>;
         };
     };
 };
