@@ -21,13 +21,13 @@
             tapping-term-ms = <200>;
             bindings = <&kp LA(A)>, <&kp BSLH>, <&kp PIPE>;
         };
-        td1: tap_dance_0 {
+        td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LA(O)>, <&kp SEMI>, <&kp COLON>;
         };
-        td2: tap_dance_0 {
+        td2: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
