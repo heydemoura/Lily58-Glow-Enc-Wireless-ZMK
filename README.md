@@ -9,7 +9,7 @@ Layout:
 Layer 1: Default English
 Layer 2: Misc symbols and arrows
 Layer 3: Default with å, ø, æ, added to the mix. Using tap, tap 1 is å, double-tap is \, triple-tap is |, to recreate all the same keys as default.
-        I could just add this to the default layer, tbd...
+        I could just add this to the default layer. Thinking about it
 
 
 Layer 1:
